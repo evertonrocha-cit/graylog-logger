@@ -1,0 +1,22 @@
+{
+  "name": "graylog-logger",
+  "version": "1.0.0",
+  "description": "Graylog GELF HTTP Client",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/ciandt_it/dexis-libs.git"
+  },
+  "author": "@evertonrocha-cit",
+  "license": "MIT",
+  "homepage": "https://bitbucket.org/ciandt_it/dexis-libs#readme",
+  "dependencies": {
+    "axios": "^0.26.1"
+  },
+  "keywords": [
+    "graylog"
+  ]
+}
