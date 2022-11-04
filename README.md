@@ -5,7 +5,7 @@ A client logger for GELF messages sent via HTTP to a Graylog server based on pre
 #Usage 
 
 ```
-const graylogLogger = require('graylog-logger');
+const graylogLogger = require('graylog-http-gelf-client');
 const logger = new graylogLogger.GraylogLogger({
     graylogUrl: localhost:12001/gelf 
     logOrigin: my-application
