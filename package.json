@@ -12,7 +12,7 @@
   },
   "author": "@evertonrocha-cit",
   "license": "MIT",
-  "homepage": "https://bitbucket.org/ciandt_it/dexis-libs#readme",
+  "homepage": "https://github.com/evertonrocha-cit/graylog-logger#readme",
   "dependencies": {
     "axios": "^0.26.1"
   },
