@@ -1,6 +1,6 @@
 {
   "name": "graylog-http-gelf-client",
-  "version": "1.0.0",
+  "version": "1.0.8",
   "description": "Graylog GELF HTTP Client",
   "main": "logger.js",
   "scripts": {

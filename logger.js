@@ -25,7 +25,7 @@ class GraylogLogger {
         });
         const request = createDefaultInstance();
 
-        if (this.logLevel <= 6){
+        if (this.logLevel >= 6){
             request.post('/gelf', {
                 short_message: shortMessage,
                 full_message: longMessage,
@@ -33,7 +33,7 @@ class GraylogLogger {
                 level: 6
               })
               .then(function (response) {
-                console.log(response);
+                console.log(`Graylog response: ${response.status} - ${response.statusText}`);
               })
               .catch(function (error) {
                 console.log(error);
@@ -51,7 +51,7 @@ class GraylogLogger {
         });
         const request = createDefaultInstance();
 
-        if (this.logLevel <= 7){
+        if (this.logLevel >= 7){
             request.post('/gelf', {
                 short_message: shortMessage,
                 full_message: longMessage,
@@ -59,7 +59,7 @@ class GraylogLogger {
                 level: 7
             })
             .then(function (response) {
-                console.log(response);
+                console.log(`Graylog response: ${response.status} - ${response.statusText}`);
             })
             .catch(function (error) {
                 console.log(error);
@@ -77,7 +77,7 @@ class GraylogLogger {
         });
         const request = createDefaultInstance();
 
-        if (this.logLevel <= 4) {
+        if (this.logLevel >= 4) {
             request.post('/gelf', {
                 short_message: shortMessage,
                 full_message: longMessage,
@@ -85,7 +85,7 @@ class GraylogLogger {
                 level: 4
               })
               .then(function (response) {
-                console.log(response);
+                console.log(`Graylog response: ${response.status} - ${response.statusText}`);
               })
               .catch(function (error) {
                 console.log(error);
@@ -103,7 +103,7 @@ class GraylogLogger {
         });
         const request = createDefaultInstance();
 
-        if(this.logLevel <= 3) {
+        if(this.logLevel >= 3) {
             request.post('/gelf', {
                 short_message: shortMessage,
                 full_message: longMessage,
@@ -112,7 +112,7 @@ class GraylogLogger {
             },
             )
             .then(function (response) {
-                console.log(response);
+                console.log(`Graylog response: ${response.status} - ${response.statusText}`);
             })
             .catch(function (error) {
                 console.log(error);
