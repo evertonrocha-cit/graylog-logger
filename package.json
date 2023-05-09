@@ -14,7 +14,8 @@
   "license": "MIT",
   "homepage": "https://github.com/evertonrocha-cit/graylog-logger#readme",
   "dependencies": {
-    "axios": "^0.26.1"
+    "axios": "^0.26.1",
+    "underscore": "^1.13.6"
   },
   "keywords": [
     "graylog",
